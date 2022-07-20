@@ -120,6 +120,8 @@ body {
     padding: 10px;
 }
 
+
+
 .card img {
     width: 312px;
     height: 175px;
@@ -229,6 +231,10 @@ footer p {
 
     .page-link {
         border: 2px solid black;
+    }
+
+    #last-box {
+        display: none;
     }
 }
 
