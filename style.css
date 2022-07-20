@@ -213,7 +213,7 @@ footer p {
         grid-template-columns: repeat(2, 1fr);
         grid-column-gap: 0px;
         justify-content: center;
-        background-color: white;
+
     }
 
     .page-link {
@@ -222,4 +222,38 @@ footer p {
 }
 
 /* mobile devices style */
-@media only screen and (max-width:688px) {}
+@media only screen and (max-width:688px) {
+    .main-contant {
+        flex-direction: column;
+    }
+
+    .box-style {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .nev-box {
+        background-color: white;
+    }
+
+    .cards {
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 0px;
+        justify-content: center;
+
+    }
+
+    .page-link {
+        border: 2px solid black;
+    }
+
+    .last-btn {
+        display: none;
+    }
+
+    .footer-last {
+        grid-template-columns: repeat(1, 1fr);
+        height: 100%;
+    }
+}
