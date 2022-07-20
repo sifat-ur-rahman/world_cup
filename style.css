@@ -40,6 +40,10 @@ body {
 
 }
 
+.header-text {
+    font-size: 40px;
+}
+
 .button {
     text-decoration: none;
     background-color: #DD0000;
@@ -75,6 +79,7 @@ body {
     justify-content: space-evenly;
 }
 
+/* nev  box style */
 .nev-box {
     background: #161616;
     border-radius: 10px;
@@ -208,6 +213,10 @@ footer p {
 
 /* tablet devices style*/
 @media only screen and (min-width:688px) and (max-width:1600px) {
+    .button {
+        width: 30%;
+    }
+
     .main-contant {
         flex-direction: column;
     }
@@ -220,6 +229,8 @@ footer p {
 
     .nev-box {
         background-color: white;
+        width: 100%;
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .cards {
@@ -250,7 +261,7 @@ footer p {
     }
 
     .button {
-        width: 40%;
+        width: 45%;
     }
 
     .full-banner {
