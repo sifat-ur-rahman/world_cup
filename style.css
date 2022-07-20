@@ -194,14 +194,32 @@ footer p {
 }
 
 /* tablet devices style*/
-@media only screen and (min-width:688px) and (max-width:992px) {
+@media only screen and (min-width:688px) and (max-width:1600px) {
     .main-contant {
         flex-direction: column;
+    }
+
+    .box-style {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .nev-box {
+        background-color: white;
     }
 
     .cards {
         grid-template-columns: repeat(2, 1fr);
         grid-column-gap: 0px;
         justify-content: center;
+        background-color: white;
+    }
+
+    .page-link {
+        border: 2px solid black;
     }
 }
+
+/* mobile devices style */
+@media only screen and (max-width:688px) {}
